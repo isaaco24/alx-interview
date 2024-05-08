@@ -1,0 +1,12 @@
+U
+
+    ���b�  �                   @   s   d Z dd� ZdS )z
+UTF-8 Validation
+c                 C   s�   d}| D ]|}|dkrj|d? dks,|d? dkr2d}q�|d? dkrDd}q�|d? d	krVd}q�|d
+? dkr� dS q|d? dkr| dS |d8 }q|dkS )zl
+    data: a list of integers
+    Return: True if data is a valid UTF-8
+    encoding, else return False
+    �    �   �   �   �   �   �   �   �   �   F� )�dataZ
+byte_count�ir   r   �g/home/firdaus/Documents/FIRDAUS/ALX/Gitprojects/1/alx-interview/0x04-utf8_validation/0-validate_utf8.py�	validUTF8   s    
+r   N)�__doc__r   r   r   r   r   �<module>   s   
